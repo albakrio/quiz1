@@ -1,0 +1,12 @@
+<%- include("./partials/header") %>
+<h1>Sign in to post</h1>
+<div class="container border mt-3 mr-3">
+  <h3>Username</h3>
+  <form action="/sign_in" method="POST">
+    <div class="form-group">
+      <input type="text" name="username" placeholder="e.g. Something" />
+      <button type="submit">Sign In</button>
+    </div>
+  </form>
+</div>
+<%- include("./partials/footer") %>
